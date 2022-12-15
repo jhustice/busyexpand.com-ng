@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: "AirbnbCereal";
+    src: url(../airbnb-cereal-font/AirbnbCereal_W_Lt.otf);
+}
+
+body {
+    line-height: 1.6;
+    background: #fff;
+    font-family: 'AirbnbCereal';    
+    letter-spacing: 1.1px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    font-family: 'AirbnbCereal'; 
+    text-decoration: none;
+    color: #0C8281;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+} 
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 64px;
+    border-bottom: #FEFBFF  1px solid;
+}
+
+#main-nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#main-nav .logo a {
+    color: #000;
+}
+
+/* #main-nav .logo p {
+    margin-bottom: 4rem;
+} */
+
+#main-nav .logo img{
+    width: 50px;
+}
+
+#main-nav .button {
+    display: inline-block;
+    background-color: #77B34B;
+    font-family: 'AirbnbCereal';
+    padding: 6px 9px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#main-nav .button a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#main-nav .button a:hover {
+    opacity: 0.5;
+}
+
+#hero {
+    margin-top: -60px;
+}
+
+#hero .card-one {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#hero .card-one .text {
+    border: 2px solid #F8F6F9;
+    box-shadow: 3px 3px 10px #F8F6F9;
+    border-radius: 10px;
+    padding: 13px 35px;
+    line-height: 2;
+}
+
+#hero .card-one .text .arrow {
+    width: 20px;
+    height: 20px;
+    margin-top: 3rem;
+    padding-top: .5rem;
+}
+
+#hero .card-one .text > p:first-child {
+    color: #0C8281;
+}
+
+#hero .card-one .text > p {
+    font-size: 14px;
+}
+
+#hero .card-one img {
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+#hero .card-one h1 {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+#hero .card-one p {
+    margin-top: .5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#hero .image {
+    background: url('/img/pexels.jpg') no-repeat center center / cover;
+    border-radius: 15px;
+    color: #fff;
+    z-index: 0.2;
+}
+
+#hero .image > div {
+    padding: 160px 2rem 0 2rem;
+}
+
+#hero .image > div p {
+    font-size: 12px;
+}
+
+#hero .image .cta {
+    display: inline-block;
+    font-size: 12px;
+    background-color: #838383;
+    margin-top: .5rem;
+    border: #FEFBFF 1px solid;
+    padding: .5rem 2rem;
+    border-radius: 50px;
+}
+
+#hero .image .cta:hover {
+    background-color: #000;
+}
+
+#hero .image a {
+    color: #fff;
+}
+
+.container h2 {
+    font-size: 17px;
+}
+
+.card {
+    border: 2px solid #F8F6F9;
+    box-shadow: 3px 3px 10px #F8F6F9;
+    border-radius: 10px;    
+}
+
+.section-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.section-one .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.section-one .card .arrow {
+    margin-top: 1rem;
+    width: 15px;
+    margin-bottom: -.2rem;
+}
+
+.section-one img {
+    width: 28px;
+}
+
+.section-one .card {
+    padding: 1rem 1rem;
+}
+
+.section-one .card-two p {
+    margin-bottom: 5rem;
+}
+
+.section-one .card-four img {
+    width: 15px;    
+}
+
+.section-one .card-four .arrow {
+    width: 15px;
+    margin-bottom: -.2rem;
+}
+
+.section-one .card h3{
+    font-size: 20px;
+}
+
+.section-one .card p{
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.section-one .card a {
+    font-size: 12px;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 5rem;
+    gap: 2rem;
+    font-size: 11px;
+}
+
+.section-two p {
+    margin-bottom: 1rem;
+}
+
+.section-two span {
+    color: #75B443;
+}
+
+.section-two h3 {
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.section-two .card {
+    padding: 1rem 1.5rem;
+}
+
+.section-two .card .arrow {
+    width: 15px;
+    margin-bottom: -.2rem;
+}
+
+.section-two .card-eight {
+    display: flex;
+}
+
+.section-two .card-eight img {
+    width: 190px;
+}
+
+.section-two .card-eight .card-text > p:first-child {
+    margin-bottom: 0;
+}
+
+.section-two .card-eight .card-text p:nth-child(2) {
+    font-size: 14px;
+}
+
+.section-two .card-nine p {
+    margin-bottom: 3rem;
+}
+
+#main-footer {
+    background-color: #75B443;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 11px;
+}
+
+#main-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-footer .footer-content a {
+    color: #fff;
+    cursor: none;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    #hero .card-one h1 {
+        font-size: 16px;
+        /* margin-top: 1rem; */
+    }
+    
+    #hero .card-one  p {
+        font-size: 13px;
+        /* margin-top: .5rem; */
+    }
+
+    #hero .card-one .text {
+        padding: 8px 20px;
+        line-height: 1.7;
+    }
+
+    #hero .image > div {
+        padding: 50px 2rem 0 2rem;
+    }    
+
+    .section-one {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    #hero .card-one {
+        grid-template-columns: repeat(1, 1fr);  
+    }
+
+    #hero .card-one img {
+        width: 439px;
+        height: 350px;
+    }
+
+    #hero .image > div {
+        padding: 20px 1rem 0 1rem;
+    }
+
+    #hero .image .cta {
+        margin-bottom: 1rem;
+        padding: .3rem 1rem;
+    }    
+
+    .section-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .section-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .section-two .card-eight {
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .section-two .card-eight .google img {
+        width: 150px;
+        margin-top: -40px;
+    }
+
+    .section-two .card-eight .google {
+        align-self: center;
+    }
+
+    .section-two h3 {
+        margin-bottom: .1rem;
+    }
+}
+
+@media (max-width: 400) {
+    .section-two .card-eight {
+        height: 900px;
+    }
+
+    .section-two .card-eight .google img {
+        margin-top: -10px;
+        width: 100px;
+    }
+}
