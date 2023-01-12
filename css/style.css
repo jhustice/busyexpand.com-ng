@@ -212,6 +212,8 @@ a {
 
 .section-one img {
     width: 28px;
+    height: 28px;
+    object-fit: contain;
 }
 
 .section-one .card {
