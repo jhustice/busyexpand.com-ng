@@ -111,6 +111,14 @@ a {
     line-height: 1.5;
 }
 
+#hero .card-one .text a {
+    font-family: 'AirbnbCerealBd';
+}
+
+#hero .card-one .text a:hover {
+    color: #75B443;
+}
+
 #hero .card-one .text .arrow {
     width: 20px;
     height: 20px;
@@ -277,6 +285,11 @@ a {
 
 .section-one .card a {
     font-size: 12px;
+    font-family: 'AirbnbCerealBd';
+}
+
+.section-one .card a:hover {
+    color: #75B443;
 }
 
 .section-two {
@@ -305,6 +318,14 @@ a {
 
 .section-two .card {
     padding: 1rem 1.5rem;
+}
+
+.section-two .card a {
+    font-family: 'AirbnbCerealBd';
+}
+
+.section-two .card a:hover {
+    color: #75B443;
 }
 
 .section-two .card p {
@@ -351,7 +372,7 @@ a {
 
 #main-footer .footer-content a {
     color: #fff;
-    cursor: none;
+    cursor: pointer;
 }
 
 /* Media Queries */
