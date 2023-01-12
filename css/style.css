@@ -108,7 +108,7 @@ a {
     box-shadow: 3px 3px 10px #F8F6F9;
     border-radius: 10px;
     padding: 13px 35px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 #hero .card-one .text .arrow {
@@ -133,7 +133,7 @@ a {
 }
 
 #hero .card-one h1 {
-    font-size: 20px;
+    font-size: 32px;
     margin-top: 1rem;
     font-family: 'AirbnbCerealBd';
 }
@@ -228,9 +228,29 @@ a {
     width: 15px;    
 }
 
+.section-one .card-two .arrow {
+    margin-bottom: -.5rem;
+}
+
+.section-one .card-three .arrow {
+    margin-bottom: -.5rem;
+}
+
 .section-one .card-four .arrow {
     width: 15px;
-    margin-bottom: -.2rem;
+    margin-bottom: -.5rem;
+}
+
+.section-one .card-five .arrow {
+    margin-bottom: -.6rem;
+}
+
+.section-one .card-six .arrow {
+    margin-bottom: -.5rem;
+}
+
+.section-one .card-seven .arrow {
+    margin-bottom: -.5rem;
 }
 
 .section-one .card h3{
@@ -239,7 +259,7 @@ a {
 }
 
 .section-one .card p{
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 1.5rem;
 }
 
@@ -272,6 +292,10 @@ a {
 
 .section-two .card {
     padding: 1rem 1.5rem;
+}
+
+.section-two .card p {
+    font-size: 15px;
 }
 
 .section-two .card .arrow {
