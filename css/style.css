@@ -228,8 +228,16 @@ a {
     width: 15px;    
 }
 
+.section-one .card-two .cl {
+    margin-top: 4.7rem;
+}
+
 .section-one .card-two .arrow {
     margin-bottom: -.6rem;
+}
+
+.section-one .card-three .cl {
+    margin-top: 4.7rem;
 }
 
 .section-one .card-three .arrow {
@@ -247,6 +255,10 @@ a {
 
 .section-one .card-six .arrow {
     margin-bottom: -.6rem;
+}
+
+.section-one .card-seven .cl {
+    margin-top: 2.9rem;
 }
 
 .section-one .card-seven .arrow {
@@ -281,6 +293,7 @@ a {
 }
 
 .section-two span {
+    font-family: 'AirbnbCerealBd';
     color: #75B443;
 }
 
@@ -389,7 +402,19 @@ a {
     .section-one {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .section-one .card-two .cl {
+        margin-top: 0;
+    }
+
+    .section-one .card-three .cl {
+        margin-top: 0;
+    }
     
+    .section-one .card-seven .cl {
+        margin-top: 0;
+    }
+
     .section-two {
         grid-template-columns: repeat(1, 1fr);
     }
