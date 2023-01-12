@@ -194,11 +194,6 @@ a {
     margin: 0 -2rem;
 }
 
-@font-face {
-    font-family: "AirbnbCerealMd";
-    src: url(../airbnb-cereal-font/AirbnbCereal_W_Md.otf);
-}
-
 .section-one .flex {
     display: flex;
     justify-content: space-between;
@@ -206,8 +201,7 @@ a {
 }
 
 .section-one .card p {
-    font-family: 'AirbnbCerealMd';
-    color: #838383;
+    font-size: 18px;
 }
 
 .section-one .card .arrow {
