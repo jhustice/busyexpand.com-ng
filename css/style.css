@@ -52,10 +52,15 @@ a {
     color: #000;
 }
 
+@font-face {
+    font-family: "AirbnbCerealBd";
+    src: url(../airbnb-cereal-font/AirbnbCereal_W_Bd.otf);
+}
+
 #main-nav .logo p {
     margin-bottom: -1.8rem;
     padding-bottom: 2rem;
-    font-weight: bolder;
+    font-family: 'AirbnbCerealBd';
 }
 
 #main-nav .logo img {
@@ -130,6 +135,7 @@ a {
 #hero .card-one h1 {
     font-size: 20px;
     margin-top: 1rem;
+    font-family: 'AirbnbCerealBd';
 }
 
 #hero .card-one p {
@@ -223,6 +229,7 @@ a {
 
 .section-one .card h3{
     font-size: 20px;
+    font-family: 'AirbnbCerealBd';
 }
 
 .section-one .card p{
