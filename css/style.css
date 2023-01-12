@@ -52,11 +52,13 @@ a {
     color: #000;
 }
 
-/* #main-nav .logo p {
-    margin-bottom: 4rem;
-} */
+#main-nav .logo p {
+    margin-bottom: -1.8rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
 
-#main-nav .logo img{
+#main-nav .logo img {
     width: 50px;
 }
 
@@ -68,14 +70,20 @@ a {
     font-size: 12px;
     font-weight: 300;
     border-radius: 5px;
+    border: 1px solid #75B443;
 }
 
 #main-nav .button a {
-    color: rgba(255, 255, 255, 0.7);
+    color: #fff;
 }
 
-#main-nav .button a:hover {
-    opacity: 0.5;
+#main-nav .button:hover {
+    background: #fff; 
+    color: #75B443; 
+}
+
+ #main-nav .button a:hover { 
+    color: #75B443;
 }
 
 #hero {
