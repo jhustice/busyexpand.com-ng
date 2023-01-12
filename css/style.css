@@ -402,6 +402,14 @@ a {
 }
 
 @media (max-width: 500px) {
+    #main-nav {
+        padding: 0 2rem;
+    }
+
+    #main-nav .button {
+        font-size: 10px;
+    }
+
     #hero .card-one {
         grid-template-columns: repeat(1, 1fr);  
     }
@@ -409,6 +417,10 @@ a {
     #hero .card-one img {
         width: 439px;
         height: 350px;
+    }
+
+    #hero .image {
+        order: -1;
     }
 
     #hero .image > div {
@@ -443,6 +455,7 @@ a {
     .section-two .card-eight {
         flex-direction: column;
         height: 250px;
+        padding-bottom: 19rem;
     }
 
     .section-two .card-eight .google img {
