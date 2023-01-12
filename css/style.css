@@ -323,6 +323,7 @@ a {
 
 .section-two .card a {
     font-family: 'AirbnbCerealBd';
+    font-size: 14px;
 }
 
 .section-two .card a:hover {
