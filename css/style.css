@@ -113,6 +113,7 @@ a {
 
 #hero .card-one .text a {
     font-family: 'AirbnbCerealBd';
+    font-size: 16px;
 }
 
 #hero .card-one .text a:hover {
@@ -284,7 +285,7 @@ a {
 }
 
 .section-one .card a {
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'AirbnbCerealBd';
 }
 
