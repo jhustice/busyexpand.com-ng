@@ -193,8 +193,9 @@ a {
 
 .card {
     border: 2px solid #F8F6F9;
-    box-shadow: 3px 3px 10px #F8F6F9;
+    /* box-shadow: 3px 3px 10px #F8F6F9; */
     border-radius: 10px;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .section-one {
