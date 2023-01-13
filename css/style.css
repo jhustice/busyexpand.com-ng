@@ -104,11 +104,12 @@ a {
 }
 
 #hero .card-one .text {
-    border: 2px solid #F8F6F9;
+    border: 1px solid #fff;
     box-shadow: 3px 3px 10px #F8F6F9;
     border-radius: 10px;
     padding: 13px 35px;
     line-height: 1.5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #hero .card-one .text a {
@@ -159,10 +160,17 @@ a {
     border-radius: 15px;
     color: #fff;
     z-index: 0.2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #hero .image > div {
     padding: 160px 2rem 0 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#hero .image > div h2 {
+    margin-left: 0;
 }
 
 #hero .image > div p {
@@ -187,14 +195,19 @@ a {
     color: #fff;
 }
 
+@font-face {
+    font-family: "AirbnbCerealMd";
+    src: url(../airbnb-cereal-font/AirbnbCereal_W_Md.otf);
+}
+
 .container h2 {
     font-size: 17px;
     margin-left: 2rem;
+    font-family: 'AirbnbCerealMd';
 }
 
 .card {
     border: 2px solid #fff;
-    /* box-shadow: 3px 3px 10px #F8F6F9; */
     border-radius: 10px;    
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -241,7 +254,7 @@ a {
 }
 
 .section-one .card-two .cl {
-    margin-top: 4.7rem;
+    margin-top: 3rem;
 }
 
 .section-one .card-two .arrow {
@@ -249,7 +262,7 @@ a {
 }
 
 .section-one .card-three .cl {
-    margin-top: 4.7rem;
+    margin-top: 3rem;
 }
 
 .section-one .card-three .arrow {
