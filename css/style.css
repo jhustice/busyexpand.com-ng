@@ -166,7 +166,7 @@ a {
 #hero .image > div {
     padding: 160px 2rem 0 2rem;
     border-radius: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 }
 
 #hero .image > div h2 {
@@ -179,16 +179,35 @@ a {
 
 #hero .image .cta {
     display: inline-block;
+    position: relative;
     font-size: 12px;
-    background-color: #838383;
+    background-color: #75B443;
     margin-top: .5rem;
     border: #FEFBFF 1px solid;
     padding: .5rem 2rem;
     border-radius: 50px;
+    transition: all 0.5s;
+}
+
+#hero .image .cta:after {
+    content: url(/img/Icon\ awesome-angle-right.svg);
+    position: absolute;
+    opacity: 01;
+    top: 8px;
+    right: -21px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+#hero .image .cta:hover:after {
+    opacity: 0;
+    right: 10px;
+    z-index: -3;
+    color: #75B443;
 }
 
 #hero .image .cta:hover {
-    background-color: #000;
+    background-color: #0C8281;
 }
 
 #hero .image a {
@@ -445,6 +464,12 @@ a {
     #hero .image {
         order: -1;
     }
+
+    #hero .image .cta:after {
+    top: 5px;
+    right: -15px;
+    width: 10px;
+}
 
     #hero .image > div {
         padding: 20px 1rem 0 1rem;
